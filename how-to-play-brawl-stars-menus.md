@@ -23,3 +23,6 @@ When you enter brawl stars, you will see the _Supercell_ screen followed by the 
 ***
 ***Currencies***: The in-game currencies are coins, gems and star points. You can find out how much you have of each at the top of the lobby screen.
 ***
+
+[Home](index.html)
+[More Tutorials](tutorials.md)

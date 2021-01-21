@@ -1,0 +1,70 @@
+<DOCTYPE! html>
+
+<html>
+<head>
+    <title>ethanqzhang</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="pro">
+    <div class="nav-bar">
+            <div class="logo">
+                <img src="images/penguin.gif">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.md"><li>About</li></a>
+                    <a href="discord.html"><li>Discord</li></a>
+                    <a href="tutorials.md"><li>Tutorials</li></a>
+                </ul>
+                <button type="button" class="btn">Contribute</button>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+            <div class="banner-title">
+                <h1><span>Ice and penguins are an important part of our world.</span><br>Preserving them is more important.</h1>
+            <div class="vertical-bar">
+                <div class="search-icon">
+                    <i class="fa fa-th-list"></i>
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/ethanqzhang"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+            <div class="notifications">
+                <div class="contents">
+                    <small>Follow my GitHub so you never miss any new tutorials or repositories!</small>
+                    <p><button onclick="goBack()">PREV</button><button onclick="goNext">NEXT</button></p>
+                </div>
+                <div class="notification-img">
+                    <img src="images/notifications.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+        }
+        function closeMenu(){
+            show.style.right = "-200px";
+        }
+        function goBack(){
+            window.history.back();
+        }
+        function goNext(){
+            window.history.forward();
+        }
+        function myFunction(){
+            var x = document.getElementById("mySearch").placeholder;
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+</body>
+</html>

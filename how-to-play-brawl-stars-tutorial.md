@@ -2,7 +2,7 @@
 
 In this episode of _How to Play Brawl Stars_, you will learn about the tutorial, how to complete it and other important stuff for beginners. Enjoy! Or else...
 
-![alt text](images/brawltutorial.jpg "Tutorial")
+![alt text](images/tutorial.png "Tutorial")
 
 When you go into the **Brawl Stars** app right after its download, it will take you to the starting map. You will need to collect gems using the movement joystick on the bottom left of the screen. It is recommended to use the left hand thumb to move it. 
 
@@ -14,4 +14,7 @@ In the last stage of the tutorial, a boss bot will appear. You must drag your su
 
 **Congrats! You have finished the tutorial! You can now play Brawl Stars without a hand making you press buttons! Look at my next _How to Play Brawl Stars_ episode for more on how to play Brawl Stars**
 
-![alt text](images/thumbup.jpg "You did it!")
+![alt text](images/thumbup.png "You did it!")
+
+[Home](index.html)
+[More Tutorials](tutorials.md)
