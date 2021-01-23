@@ -39,7 +39,7 @@
             <div class="notifications">
                 <div class="contents">
                     <small>Follow my GitHub so you never miss any new tutorials or repositories!</small>
-                    <p><button onclick="goBack()">PREV</button><button onclick="goNext">NEXT</button></p>
+                    <p><button onclick="goBack()">PREV</button><button onclick="goNext()">NEXT</button></p>
                 </div>
                 <div class="notification-img">
                     <img src="images/notifications.png">
@@ -60,10 +60,6 @@
         }
         function goNext(){
             window.history.forward();
-        }
-        function myFunction(){
-            var x = document.getElementById("mySearch").placeholder;
-            document.getElementById("demo").innerHTML = x;
         }
     </script>
 </body>
